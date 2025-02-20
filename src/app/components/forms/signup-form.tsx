@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input";
 export function SignupForm() {
   return (
     <div className="w-full max-w-md">
-      <form action={registerUserAction}>
+      <form>
         <Card>
           <CardHeader className="space-y-1">
             <CardTitle className="text-3xl font-bold">Sign Up</CardTitle>
